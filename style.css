@@ -10,7 +10,7 @@
 }
 
 .img-thumb {
-  width: 380px;
+  width: 100%;
 }
 
 .img-canal {
@@ -67,10 +67,11 @@
   flex-wrap: wrap;
   column-gap: 20px;
   row-gap: 40px;
+  margin-bottom: 50px;
 }
 
 .caixa-video {
-  width: 380px;
+  width: 32%;
 }
 
 .menu-principal {
@@ -80,6 +81,7 @@
 }
 
 .categorias {
+  margin-top: 20px;
   display: flex;
   gap: 8px;
   margin-bottom: 40px;
@@ -96,6 +98,12 @@
   color: white; */
   background-color: #0000000d;
   cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.categoria:hover,
+.icone-mic {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .categoria.selecionado {
@@ -111,9 +119,11 @@
 
 .menu-lateral {
   min-width: 240px;
+  width: 240px;
 }
 
-.menu-bloco {
+.menu-bloco,
+.menu-login {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 15px;
 }
@@ -129,6 +139,20 @@
   align-items: center;
   gap: 20px;
   color: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.bloco-item.selecionado {
+  font-weight: 600;
+}
+
+.bloco-item:hover,
+.bloco-item.selecionado {
+  background-color: #0000000d;
+}
+
+.bloco-item.selecionado:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .bloco-titulo {
@@ -137,7 +161,96 @@
   padding: 3px 0;
 }
 
-.bloco-item.selecionado {
+.menu-login {
+  padding: 16px 32px;
+}
+
+.login-texto {
+  margin-bottom: 15px;
+}
+
+.login-bloco {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 6px 12px;
+  color: #065fd4;
+  fill: #065fd4;
+  width: max-content;
+  transition-property: background-color, border-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.login-bloco:hover {
+  background-color: #def1ff;
+  border-color: #def1ff;
+}
+
+.bloco-texto {
+  color: inherit;
+  font-weight: 500;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 7.5px 15px;
+}
+
+.caixa-logo,
+.caixa-pesquisa,
+.caixa-login {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.icone-logo {
+  height: 20px;
+}
+
+.icone-menu {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.icone-menu:hover {
   background-color: #0000000d;
-  font-weight: 600;
+}
+
+.input-pesquisa {
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  height: 40px;
+  width: 640px;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.icone-menu,
+.icone-mic {
+  cursor: pointer;
+}
+
+.icone-mic {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: #0000000d;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.caixa-pesquisa {
+  margin-left: 32px;
+}
+
+.caixa-logo {
+  margin-left: 7px;
 }
