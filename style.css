@@ -1,7 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* até poderia colocar font-family aqui, porém ao colocar em caixa-textos, fica como herança de estilo  */
+  text-decoration: none;
+  color: #606060;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+}
+
 .img-thumb {
   width: 380px;
 }
 
 .img-canal {
   width: 36px;
+}
+
+.body {
+  color: #0f0f0f;
+  font-size: 14px;
+}
+
+.caixa-textos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /*font-family: "Roboto", Arial, sans-serif;*/
+}
+
+.caixa-texto a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.caixa-titulo {
+  font-weight: 700;
+  font-size: 16px;
+  color: #0f0f0f;
+}
+
+.subtitulos {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.img-thumb {
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.img-canal {
+  border-radius: 50%;
+}
+
+.caixa-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.caixa-videos {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.caixa-video {
+  width: 380px;
+}
+
+.menu-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.categorias {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.categoria {
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 8px;
+  padding: 7px 12px;
+  border: none;
+
+  /* background-color: #0f0f0f;
+  color: white; */
+  background-color: #0000000d;
+  cursor: pointer;
+}
+
+.categoria.selecionado {
+  background-color: #0f0f0f;
+  color: white;
+  font-weight: 600;
+}
+
+.principal {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-lateral {
+  min-width: 240px;
+}
+
+.menu-bloco {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.menu-bloco:last-child {
+  border-bottom: none;
+}
+
+.bloco-item {
+  display: flex;
+  border-radius: 12px;
+  padding: 7.5px 15px;
+  align-items: center;
+  gap: 20px;
+  color: inherit;
+}
+
+.bloco-titulo {
+  margin-left: 15px;
+  font-size: 16px;
+  padding: 3px 0;
+}
+
+.bloco-item.selecionado {
+  background-color: #0000000d;
+  font-weight: 600;
 }

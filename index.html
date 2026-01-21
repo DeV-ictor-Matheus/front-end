@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -12,24 +12,461 @@
   <body>
     <header></header>
 
-    <main>
-      <div>
-        <img
-          class="img-thumb"
-          src="https://img.youtube.com/vi/C67qPfI8_hg/hqdefault.jpg"
-          alt="Thumbnail - Comece Imediatamente"
-        />
-        <img
-          class="img-canal"
-          src="https://yt3.ggpht.com/ytc/AIdro_l6tUjwilRjMDBJ0p36NnmeSiU01y2N-4HZVS34VwheCrQ=s68-c-k-c0x00ffffff-no-rj"
-          alt="Logo - Canal Bruno Perini"
-        />
-        <p>
-          FAÇA ISSO SEMPRE QUE RECEBER SEU SALÁRIO | Como organizar suas
-          finanças e guardar dinheiro?
-        </p>
-        <p>Bruno Perini - Você MAIS Rico</p>
-        <p>740 mil visualizações • há 7 meses</p>
+    <main class="principal">
+      <div class="menu-lateral">
+        <div class="menu-bloco">
+          <a href="https://www.youtube.com/" class="bloco-item selecionado">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="m11.485 2.143-8 4.8-2 1.2a1 1 0 001.03 1.714L3 9.567V20a2 2 0 002 2h5v-8h4v8h5a2 2 0 002-2V9.567l.485.29a1 1 0 001.03-1.714l-2-1.2-8-4.8a1 1 0 00-1.03 0Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Início</p>
+          </a>
+          <a href="https://www.youtube.com/shorts/" class="bloco-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="m13.467 1.19-8 4.7a5 5 0 00-.255 8.46 5 5 0 005.32 8.462l8-4.7a5 5 0 00.258-8.462 5 5 0 001.641-6.464l-.12-.217a5 5 0 00-6.844-1.78m5.12 2.79a2.999 2.999 0 01-1.067 4.107l-1.327.78a1 1 0 00.096 1.775l.943.423a3 3 0 01.288 5.323l-8 4.7a3 3 0 01-3.039-5.173l1.327-.78a1 1 0 00-.097-1.775l-.942-.423a3 3 0 01-.288-5.323l8-4.7a3 3 0 014.106 1.066ZM15 12l-5-3v6l5-3Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Shorts</p>
+          </a>
+          <a
+            href="https://www.youtube.com/feed/subscriptions"
+            class="bloco-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M18 1H6a2 2 0 00-2 2h16a2 2 0 00-2-2Zm3 4H3a2 2 0 00-2 2v13a2 2 0 002 2h18a2 2 0 002-2V7a2 2 0 00-2-2ZM3 20V7h18v13H3Zm13-6.5L10 10v7l6-3.5Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Subscrições</p>
+          </a>
+        </div>
+        <div class="menu-bloco">
+          <a
+            href="https://www.youtube.com/feed/you"
+            class="bloco-item selecionado"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm0 2a9 9 0 016.447 15.276 7 7 0 00-12.895 0A9 9 0 0112 3Zm0 2a4 4 0 100 8 4 4 0 000-8Zm0 2a2 2 0 110 4 2 2 0 010-4Zm-.1 9.001L11.899 16a5 5 0 014.904 3.61A8.96 8.96 0 0112 21a8.96 8.96 0 01-4.804-1.391 5 5 0 014.704-3.608Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Biblioteca</p>
+          </a>
+          <a href="https://www.youtube.com/feed/history" class="bloco-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M8.76 1.487a11 11 0 11-7.54 12.706 1 1 0 011.96-.4 9 9 0 0014.254 5.38A9 9 0 0016.79 4.38 9 9 0 004.518 7H7a1 1 0 010 2H1V3a1 1 0 012 0v2.678a11 11 0 015.76-4.192ZM12 6a1 1 0 00-1 1v5.58l.504.288 3.5 2a1 1 0 10.992-1.736L13 11.42V7a1 1 0 00-1-1Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Histórico</p>
+          </a>
+        </div>
+        <div class="menu-bloco">
+          <p class="bloco-titulo">Explorar</p>
+          <a
+            href="https://www.youtube.com/feed/you"
+            class="bloco-item selecionado"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm0 2a9 9 0 016.447 15.276 7 7 0 00-12.895 0A9 9 0 0112 3Zm0 2a4 4 0 100 8 4 4 0 000-8Zm0 2a2 2 0 110 4 2 2 0 010-4Zm-.1 9.001L11.899 16a5 5 0 014.904 3.61A8.96 8.96 0 0112 21a8.96 8.96 0 01-4.804-1.391 5 5 0 014.704-3.608Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Biblioteca</p>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCkYQyvc_i9hXEo4xic9Hh2g"
+            class="bloco-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M16 6V4.344l-.005-.048C15.805 2.32 13.96 1 12 1c-1.961 0-3.805 1.32-3.995 3.296L8 4.344V6H4a2 2 0 00-2 2v10a4 4 0 004 4h12a4 4 0 004-4V8a2 2 0 00-2-2h-4Zm-6 0V4.447C10.094 3.732 10.851 3 12 3s1.906.732 2 1.447V6h-4Zm5 3a1 1 0 011 1v.656l-.005.048C15.805 12.68 13.96 14 12 14c-1.961 0-3.805-1.32-3.995-3.296L8 10.656V10a1 1 0 012 0v.553c.094.715.851 1.447 2 1.447s1.906-.732 2-1.447V10a1 1 0 011-1Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Shopping</p>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+            class="bloco-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M11 2.766v10.99a4.5 4.5 0 101.994 3.976L13 17.5V9.2l5.485 3.292A1 1 0 0020 11.634V6.966a1 1 0 00-.485-.857l-7-4.2A1 1 0 0011 2.766Zm2 4.102V4.533l5 3v2.335l-5-3ZM8.5 15a2.5 2.5 0 110 5.001A2.5 2.5 0 018.5 15Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Música</p>
+          </a>
+          <a
+            href="https://www.youtube.com/feed/storefront?bp=ogUCKAU%3D"
+            class="bloco-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M20 3H4a3 3 0 00-2.587 1.485l-.001.003-.01.015-.072.133-.037.077a3.046 3.046 0 00-.264.869l-.002.011-.011.1-.005.063-.005.06A3.004 3.004 0 001 6v12a3 3 0 003 3h16a3 3 0 003-3V6a3 3 0 00-3-3ZM4 5h1.986l2 2-2 2H3v-.686L4.313 7 3.04 5.725A1 1 0 014 5Zm13.315 2-2-2h3.67l2 2-2 2h-3.67l2-2Zm-6.5 0L8.814 5h3.672l2 2-2 2H8.815l2-2ZM3 18v-7h18v7a1 1 0 01-1 1H4a1 1 0 01-1-1Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Filmes</p>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig"
+            class="bloco-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M4.222 4.223a11 11 0 000 15.555 1 1 0 101.414-1.414 9 9 0 010-12.727 1 1 0 10-1.414-1.414Zm13.79.353a1 1 0 000 1.414 8.5 8.5 0 010 12.022 1 1 0 001.413 1.414 10.501 10.501 0 000-14.85 1 1 0 00-1.413 0Zm-2.83 2.827a1 1 0 000 1.414 4.501 4.501 0 010 6.365 1.001 1.001 0 001.414 1.414 6.5 6.5 0 000-9.193 1 1 0 00-1.415 0Zm-7.78 0a6.5 6.5 0 000 9.194 1 1 0 001.415-1.415 4.5 4.5 0 010-6.364 1.001 1.001 0 00-1.415-1.415ZM12 10a2 2 0 100 4 2 2 0 000-4Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Ao vivo</p>
+          </a>
+          <a href="https://www.youtube.com/gaming" class="bloco-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M15.97 2.615 12 4.998 8.03 2.615a2 2 0 00-2.06 0l-5 3A2 2 0 000 7.33v7.34a2 2 0 00.97 1.715l10 6c.634.38 1.426.38 2.06 0l10-6A1.998 1.998 0 0024 14.67V7.33a2 2 0 00-.97-1.715l-5-3a2 2 0 00-2.06 0ZM12 7.33l5-3 5 3v7.34l-10 6-10-6V7.33l5-3 5 3ZM7 7.5a1 1 0 00-1 1v1.502H4.5a1 1 0 000 2H6V13.5a1 1 0 102 0v-1.498h1.5a1 1 0 000-2H8V8.5a1 1 0 00-1-1Zm11.5 1.502a1.5 1.5 0 100 3 1.5 1.5 0 000-3Zm-4 2a1.5 1.5 0 100 3 1.5 1.5 0 000-3Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Jogos</p>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw"
+            class="bloco-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M23 17V3H1v14a4 4 0 004 4h14a4 4 0 004-4ZM3 17V5h18v12a2 2 0 01-2 2H5a2 2 0 01-2-2ZM18 7H6a1 1 0 000 2h12a1 1 0 100-2Zm0 4h-3a1 1 0 000 2h3a1 1 0 000-2Zm-7 0H6a1 1 0 00-1 1v4a1 1 0 001 1h5a1 1 0 001-1v-4a1 1 0 00-1-1Zm-4 4v-2h3v2H7Zm11 0h-3a1 1 0 000 2h3a1 1 0 000-2Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Notícias</p>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw"
+            class="bloco-item"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              focusable="false"
+              aria-hidden="true"
+            >
+              <path
+                d="M17.5 1h-11A1.5 1.5 0 005 2.5V4H2a1 1 0 00-1 1v3a5 5 0 004.669 4.987 7.01 7.01 0 004.72 3.826l-2.926 4.655A1 1 0 008.31 23h7.38a1 1 0 00.847-1.532l-2.927-4.657a7.01 7.01 0 004.72-3.824A5 5 0 0023 8V5a1 1 0 00-1-1h-3V2.5A1.5 1.5 0 0017.5 1ZM7 10V3h10v7a5 5 0 11-10 0ZM3 8V6h2v4c0 .283.017.565.052.845A3 3 0 013 8Zm16 2V6h2v2a3 3 0 01-2.053 2.845c.034-.277.052-.559.053-.845Zm-8.88 11L12 18.008 13.88 21h-3.76Z"
+              ></path>
+            </svg>
+            <p class="item-texto">Esportes</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-principal">
+        <div class="categorias">
+          <button class="categoria selecionado">Todos</button>
+          <button class="categoria">Música</button>
+          <button class="categoria">Live</button>
+          <button class="categoria">Música</button>
+          <button class="categoria">Jogos</button>
+          <button class="categoria">Notícias</button>
+          <button class="categoria">Animação</button>
+          <button class="categoria">Dublagens</button>
+          <button class="categoria">Metal Alternativo</button>
+          <button class="categoria">Novidades para você</button>
+          <button class="categoria">Aulas</button>
+        </div>
+        <div class="caixa-videos">
+          <div class="caixa-video">
+            <a href="https://www.youtube.com/watch?v=C67qPfI8_hg">
+              <img
+                class="img-thumb"
+                src="https://img.youtube.com/vi/C67qPfI8_hg/hqdefault.jpg"
+                alt="Thumbnail - Comece Imediatamente"
+              />
+            </a>
+            <div class="caixa-info">
+              <a href="https://www.youtube.com/watch?v=C67qPfI8_hg">
+                <img
+                  class="img-canal"
+                  src="https://yt3.ggpht.com/ytc/AIdro_l6tUjwilRjMDBJ0p36NnmeSiU01y2N-4HZVS34VwheCrQ=s68-c-k-c0x00ffffff-no-rj"
+                  alt="Logo - Canal Bruno Perini"
+                />
+              </a>
+              <div class="caixa-textos">
+                <a
+                  href="https://www.youtube.com/watch?v=C67qPfI8_hg"
+                  class="caixa-titulo"
+                >
+                  FAÇA ISSO SEMPRE QUE RECEBER SEU SALÁRIO | Como organizar suas
+                  finanças e guardar dinheiro?
+                </a>
+                <div class="subtitulos">
+                  <a href="https://www.youtube.com/@brunoperini">
+                    <p>Bruno Perini - Você MAIS Rico</p>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=C67qPfI8_hg">
+                    <p>740 mil visualizações • há 7 meses</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="caixa-video">
+            <a href="https://www.youtube.com/watch?v=5r51JcFmn5w">
+              <img
+                class="img-thumb"
+                src="https://img.youtube.com/vi/5r51JcFmn5w/hqdefault.jpg"
+                alt="Thumbnail - Aprenda na Prática"
+              />
+            </a>
+            <div class="caixa-info">
+              <a href="https://www.youtube.com/@devodair">
+                <img
+                  class="img-canal"
+                  src="https://yt3.ggpht.com/B8JughmCeTXjYd1oQ6nsw9SLDqzwAdSIS6Qq4OXhZrpKLo63xpBp2o6vMpk36itvEsCdVCTJFQ=s68-c-k-c0x00ffffff-no-rj"
+                  alt="Logo - Canal Dev. Odair Michael"
+                />
+              </a>
+              <div class="caixa-textos">
+                <a href="https://www.youtube.com/watch?v=5r51JcFmn5w">
+                  <p class="caixa-titulo">
+                    Como CRIAR um BACKEND com Node.js, Express e MongoDB (Prisma
+                    ORM - FÁCIL!)
+                  </p>
+                </a>
+                <div class="subtitulos">
+                  <a href="https://www.youtube.com/@devodair">
+                    <p>Dev. Odair Michael</p>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=5r51JcFmn5w">
+                    <p>2,6 mil visualizações • há 6 meses</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="caixa-video">
+            <a href="https://www.youtube.com/watch?v=TOlL02slaag">
+              <img
+                class="img-thumb"
+                src="https://img.youtube.com/vi/TOlL02slaag/hqdefault.jpg"
+                alt="Thumbnail - Finally"
+              />
+            </a>
+            <div class="caixa-info">
+              <a href="https://www.youtube.com/@Developete">
+                <img
+                  class="img-canal"
+                  src="https://yt3.ggpht.com/DT7O_xioFBZllihmSaKnI_CSVIZlIuAURRTLwFGQNZb5910Xpx_CtsjeN6ZmemSf_VSH2camnw=s68-c-k-c0x00ffffff-no-rj"
+                  alt="Logo - Canal Web Developete"
+                />
+              </a>
+              <div class="caixa-textos">
+                <a href="https://www.youtube.com/watch?v=TOlL02slaag">
+                  <p class="caixa-titulo">
+                    I Finally Understand How to Learn Coding
+                  </p>
+                </a>
+                <div class="subtitulos">
+                  <a href="https://www.youtube.com/@Developete">
+                    <p>Web Developete</p>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=TOlL02slaag">
+                    <p>202 mil visualizações • há 2 meses</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="caixa-video">
+            <a href="https://www.youtube.com/watch?v=rDiceCU_cqI">
+              <img
+                class="img-thumb"
+                src="https://img.youtube.com/vi/rDiceCU_cqI/hqdefault.jpg"
+                alt="Thumbnail - Como Fazer um CRUD"
+              />
+            </a>
+            <div class="caixa-info">
+              <a href="https://www.youtube.com/@CodeRun-js">
+                <img
+                  class="img-canal"
+                  src="https://yt3.ggpht.com/2Ogc7mnmRU_o7bVz2pb-rDivGXTP_-UnAkbv2ZcW0C7bC479nQEQSIWWdNrShJBa-0Uzf3Ce=s68-c-k-c0x00ffffff-no-rj"
+                  alt="Logo - Canal Code Run"
+                />
+              </a>
+              <div class="caixa-textos">
+                <a href="https://www.youtube.com/watch?v=rDiceCU_cqI">
+                  <p class="caixa-titulo">
+                    Como fazer CRUD Completo com Node.js e MySQL (Passo a Passo)
+                  </p>
+                </a>
+                <div class="subtitulos">
+                  <a href="https://www.youtube.com/@CodeRun-js">
+                    <p>Code Run</p>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=rDiceCU_cqI">
+                    <p>303 visualizações • há 3 meses</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="caixa-video">
+            <a href="https://www.youtube.com/watch?v=_gHr2Pe5LCY">
+              <img
+                class="img-thumb"
+                src="https://img.youtube.com/vi/_gHr2Pe5LCY/hqdefault.jpg"
+                alt="Thumbnail - Aprenda React do Zero"
+              />
+            </a>
+            <div class="caixa-info">
+              <a href="https://www.youtube.com/@canaldevclub">
+                <img
+                  class="img-canal"
+                  src="https://yt3.ggpht.com/mc1MPwCGHyMq-ck-2mRB020qAWCtvZNId8tCGsPM9SkFdSCkHYLh5f0G-n04nGhdvXUd7Hj-iw=s68-c-k-c0x00ffffff-no-rj"
+                  alt="Logo - Canal DevClub | Programação"
+                />
+              </a>
+              <div class="caixa-textos">
+                <a href="https://www.youtube.com/watch?v=_gHr2Pe5LCY">
+                  <p class="caixa-titulo">
+                    Aprendendo React do Zero, Conectando Back e Front End, e
+                    Consumindo API
+                  </p>
+                </a>
+                <div class="subtitulos">
+                  <a href="https://www.youtube.com/@canaldevclub">
+                    <p>DevClub | Programação</p>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=_gHr2Pe5LCY">
+                    <p>185 mil visualizações • há 1 ano</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="caixa-video">
+            <a href="https://www.youtube.com/watch?v=_V9ZMaV1l6Q">
+              <img
+                class="img-thumb"
+                src="https://img.youtube.com/vi/_V9ZMaV1l6Q/hqdefault.jpg"
+                alt="Thumbnail - Comece Imediatamente"
+              />
+            </a>
+            <div class="caixa-info">
+              <a href="https://www.youtube.com/@syntaxfm">
+                <img
+                  class="img-canal"
+                  src="https://yt3.ggpht.com/gvvHQOWCRiNehiIKqDNS59DapvDsXsZugPnNqWumcp9OYCZPdmPTQw0AGaFEOb0uUKEg7VNpkA=s68-c-k-c0x00ffffff-no-rj"
+                  alt="Logo - Canal Syntax"
+                />
+              </a>
+              <div class="caixa-textos">
+                <a href="https://www.youtube.com/watch?v=_V9ZMaV1l6Q">
+                  <p class="caixa-titulo">
+                    CSS Speed Challenge! Devs Race to Recreate React Logo
+                  </p>
+                </a>
+                <div class="subtitulos">
+                  <a href="https://www.youtube.com/@syntaxfm">
+                    <p>Syntax</p>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=_V9ZMaV1l6Q">
+                    <p>121 mil visualizações • há 5 meses</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
